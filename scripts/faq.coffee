@@ -2,7 +2,7 @@
 #   DoCoMo FAQ
 #
 # Commands:
-#   el faq $question - Response DoCoMo 知識Q&A API
+#   el faq <query> - Response from DoCoMo 知識Q&A API
 
 module.exports = (robot) ->
   base_url = 'https://api.apigw.smt.docomo.ne.jp/knowledgeQA/v1/ask'

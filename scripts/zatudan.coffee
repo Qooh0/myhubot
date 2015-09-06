@@ -2,7 +2,7 @@
 #   DoCoMo 雑談API
 #
 # Commands:
-#   el talk $message - Response from DoCoMo 雑談対話 API
+#   el talk <query> - Response from DoCoMo 雑談対話 API
   
 
 module.exports = (robot) ->
