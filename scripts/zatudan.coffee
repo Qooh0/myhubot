@@ -1,11 +1,8 @@
 # Description
 #   DoCoMo 雑談API
 #
-# Command
-#   el talk $message
-#
-# License
-#   MIT
+# Commands:
+#   el talk $message - Response from DoCoMo 雑談対話 API
   
 
 module.exports = (robot) ->

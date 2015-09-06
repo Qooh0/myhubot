@@ -1,11 +1,8 @@
 # Description
 #   DoCoMo FAQ
 #
-# Command
-#   el faq $question
-#
-# License
-#   MIT
+# Commands:
+#   el faq $question - Response DoCoMo 知識Q&A API
 
 module.exports = (robot) ->
   base_url = 'https://api.apigw.smt.docomo.ne.jp/knowledgeQA/v1/ask'
