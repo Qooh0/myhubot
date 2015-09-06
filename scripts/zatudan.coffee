@@ -17,7 +17,7 @@ module.exports = (robot) ->
   DOCOMO_TALK_LAST_TIME = 'docomo_talk_last_time'
   SPEND_MINUTES = 20
 
-  robot.hear /(?:el\stalk\s)(.*)/, (res) ->
+  robot.respond /talk (.*)/, (res) ->
     text = res.match[1].trim()
     return unless text
 
